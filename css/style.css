@@ -1,0 +1,309 @@
+/*Fontes e textos*/
+
+@font-face {
+    font-family: Upheaval;
+    src: url(../fonte/upheavtt.ttf);
+}
+
+.content-text{
+    text-align: left;
+    margin-left:8%;
+}
+
+h1,p,#texto1,#texto3, h3, h6, #footer, b,.content-text, .botao-conteudo{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+h3{
+    width: 80%;
+}
+
+.text-logo{
+    color: blueviolet;
+}
+
+#conteudo-banner{
+    padding-right: 50%;
+    font-weight: 400;
+}
+
+#titulo-pagina{
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.texto1{
+    display:inline-block;
+    width: 80%;
+}
+
+#texto2{
+    margin-left: 30px;
+}
+
+#titulo-txt2{
+position: relative;
+left: 30px;
+width: 80%;
+}
+
+#titulo-txt3{
+    position: relative;
+    left: 30px;
+    padding: 0px;
+}
+
+#texto4{
+    margin-left: 30px;
+    width: 70%;
+}
+
+/*Footer*/
+
+#footer{
+    background-color: #212529 !important;
+    color: white;
+}
+
+/*Fim fontes e textos*/
+/*------------------------------------------------------------------------------------------------------------------*/
+/*Imagens*/
+
+.logoimg{
+    width: 90px;
+    height: 90px;
+    padding: 0%;
+}
+
+#logo{
+    font-family: Upheaval;
+    font-size: 20px;
+}
+
+.imagem1{
+    height: 12.5rem;
+    width: 12.5rem;
+    float: right;
+}
+
+#sonic{
+    height: 220px;
+    width: 135px;
+    float: left;
+}
+
+#pikachu{
+    height: 200px;
+    width: 200px;
+    float: left;
+}
+
+/*Fim imagens*/
+/*------------------------------------------------------------------------------------------------------------------*/
+/*Botões e seus hover's*/
+
+#btn-banner
+    {
+        background: none;
+        color: aliceblue;
+        border: solid 4px;
+        border-color: aliceblue;
+        border-radius: 50px;
+        padding: 5px 40px 5px 40px;
+    }
+
+#btn-banner:hover
+    {
+        background-color: aliceblue;
+        transition: 0.3s;
+        color: black;
+        transform: scale(1.1);
+    }
+
+
+#btn-banner-div
+    {
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        margin-left: -8%;
+        position: relative;
+        top: 140px;
+    }
+
+.botao-conteudo
+    {
+        background-color: transparent;
+        color: blueviolet;
+        border: solid 3px;
+        border-color: blueviolet;
+        border-radius: 50px;
+        padding: 5px 40px 5px 40px;
+        margin-top: 20px;
+        font-size: 15px;
+        font-weight: bold;
+    }
+
+.botao-conteudo:hover
+    {
+        background-color: blueviolet;
+        transition: 0.3s;
+        color: aliceblue;
+        transform: scale(1.1);
+    }
+
+.botao-conteudo2
+    {
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        background-color: transparent;
+        color: blueviolet;
+        border: solid 3px;
+        border-color: blueviolet;
+        border-radius: 50px;
+        padding: 5px 40px 5px 40px;
+        margin-top: 20px;
+        font-size: 15px;
+        font-weight: bold;
+        margin-left: 30px;
+    }
+    
+.botao-conteudo2:hover
+    {
+        background-color: blueviolet;
+        transition: 0.3s;
+        color: aliceblue;
+        transform: scale(1.1);
+    }
+
+
+/*Fim botões e seus hover's*/
+/*------------------------------------------------------------------------------------------------------------------*/
+/*Ajustes para telas menores*/
+
+
+@media screen and (max-width: 1200px) {
+#texto1, #texto3{
+    width: 70%;
+}
+#texto4{
+    width: 60%;
+}
+}
+
+@media screen and (max-width: 991.9px) {
+
+    .navbar-nav{
+        display: flex !important;
+        justify-content: space-around !important;
+        flex-direction: row !important;
+        padding-left: 0 !important;
+        margin-bottom: 0 !important;
+        list-style: none !important;
+        background: #212529 !important;
+        border-radius: 50px !important;
+    }
+
+    a.nav-link.text-white:hover{
+        transform: scale(1.2);
+        transition: 0.5s;
+    }
+
+    #texto1, #texto3{
+        width: 50%;
+    }
+
+    #texto2{
+    width: 70%;
+    }
+
+    #texto4{
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 769.9px) {
+
+
+
+.p-5{
+ padding: 2rem;
+}
+
+#footer{
+    width: 100%;
+}
+
+#banner{
+    width: 100%;
+    height: 100vh;
+}
+
+.imagem1, #pikachu{
+    height: 7.5rem;
+    width: 7.5rem;
+}
+#texto1, #texto3{
+    width: 100%;
+}
+
+
+#sonic{
+    height: 110px;
+    width: 75px;
+}
+
+#texto1, #texto2, #texto3, #texto4{
+    width: 100%;
+    margin-left: 0px;
+    margin-top: 10px;
+    }
+
+    #titulo3, #titulo-txt3{
+        position: relative;
+        top: 25px;
+    }
+
+    #btn-banner{
+        position: relative;
+        bottom: 100px;
+    }
+
+    .botao-conteudo2{
+        margin-left: 0px;
+    }
+
+}
+
+@media screen and (max-width: 550.9px){
+    .content-text{
+        text-align: center;
+        margin-left: 0px;
+    }
+    #conteudo-banner{
+        padding: 2%;
+    }
+
+}
+
+@media screen and (max-width: 450.9px){
+
+    #btn-banner{
+        margin-left: 15px;
+    }
+
+    .p-5{
+        padding: 4%;
+       }
+
+
+}
+
+@media screen and (max-width: 450.9px){
+    #titulo-pagina{
+        width: max-content;
+    }
+}
