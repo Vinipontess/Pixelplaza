@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Descubra a PixelPlaza, a loja de jogos em Praia Grande com uma incrível seleção de jogos antigos e novos para todas as plataformas de console. Explore a história dos jogos enquanto compra seus títulos favoritos. Encontre diversão, nostalgia e uma experiência completa na PixelPlaza!">
+    <meta name="keywords" content="Pixelplaza, comprar jogos em , JavaScript">
+    <title>PixelPlaza - Ínicio</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <style>
+      .banner-image {
+        background-image: url('img/img11.webp');
+        background-size: cover;
+      }
+
+    </style>
+  </head>
+  <body>
+    <!-- Navbar  -->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark p-md-3">
+      <div class="container">
+        <a id="logo" class="navbar-brand" href="index.html"><img alt="Videogame" class="logoimg" src="img/logo.webp">PixelPlaza</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <div class="mx-auto"></div>
+          <div>
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link text-white" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="Catalogo.html">Catálogo</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#">Biblioteca</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#">Contato</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#">Sobre</a>
+            </li>
+          </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Imagem do banner -->
+    <div
+     id="banner" class="banner-image w-100 vh-100 d-flex justify-content-left align-items-center"
+    >
+      <div class="content-text">
+        <h1 id="titulo-banner" class="text-white">A sua dose diária de jogos incríveis.</h1><br>
+        <h5 id="conteudo-banner" class="text-white">A loja definitiva de jogos com uma seleção ampla e competitiva dos melhores títulos para todas as plataformas.
+           Explore um universo de diversão e aventuras épicas conosco.</h5><br>
+           <div id="btn-banner-div"><a href="#vem"><input id="btn-banner" type="button" value="Saiba mais"></a></div>
+
+      </div>
+      <span id="vem"></span>
+
+    </div >
+
+    <!-- Conteudo no meio da página (main) -->
+    <div  class="container my-5 d-grid gap-5">
+      <H1 id="titulo-pagina">O que a&nbsp;<b class="text-logo">PixelPlaza</b>&nbsp;oferece?</H1>
+      <div class="p-5 border">
+        <img alt="Mário e Yoshi" id="mario" class="imagem1" src="img/mario.webp">
+        <h3>Explore uma nova dimensão de conhecimento de jogos</h3><br>
+        <p id="texto1" class="texto1">
+          Quando você entra em nossa loja, não se trata apenas de uma prateleira repleta de jogos incríveis, 
+          mas de uma jornada pela história, mecânicas e detalhes de cada um deles.
+           Nossa equipe dedicada é apaixonada por jogos e está pronta para compartilhar informações valiosas com você.
+        </p>
+        <input type="button" class="botao-conteudo" value="Conheça nossa coleção de histórias">
+      </div>
+      <div class="p-5 border">
+        <img alt="Sonic" id="sonic"  src="img/sonic.webp">
+        <h3 id="titulo-txt2">Descubra a imensidão do nosso catálogo</h3><br>
+        <p id="texto2" class="texto1">
+          Com uma ampla seleção de títulos empolgantes, oferecemos uma experiência de jogo incomparável. Desvende mistérios, conquiste desafios e mergulhe em histórias envolventes.
+          De aventuras emocionantes a jogos de estratégia viciantes, temos tudo o que você precisa para uma diversão sem limites. Explore agora e encontre o próximo jogo que vai te surpreender!
+        </p>
+        <input type="button" class="botao-conteudo2" value="Veja nosso catálogo completo">
+      </div>
+      <div class="p-5 border">
+        <img alt="Personagem Link" id="Link" class="imagem1" src="img/link.webp">
+        <h3 id="titulo3">Descubra mais sobre a&nbsp;<b class="text-logo">PixelPlaza</b>&nbsp;</h3><br>
+        <p id="texto3" class="texto1">
+         Descubra o mundo por trás da PixelPlaza e mergulhe em uma experiência única. 
+         Conheça nossa história, equipe, visão e faça parte de nossa comunidade apaixonada. Abrace a emoção e a criatividade que impulsionam a PixelPlaza!
+        </p>
+        <input type="button" class="botao-conteudo" value="Saiba mais informações">
+      </div>
+  <div class="p-5 border">
+        <img alt="Pikachu" id="pikachu"  src="img/pikachu.webp">
+        <h3 id="titulo-txt3"> Estamos Aqui para Você</h3><br>
+        <p id="texto4" class="texto1">
+          Não hesite em entrar em contato conosco! Estamos aqui para ouvir, responder suas perguntas e construir um relacionamento sólido com você.
+           Acesse a aba "Contatos" e deixe-nos saber como podemos ajudar. Estamos ansiosos para receber sua mensagem!
+        </p>
+        <input type="button" class="botao-conteudo2" value="Nos envie uma mensagem">
+      </div>
+    </div>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <!--Javascript para navbar mudar de cor com a rolagem-->
+    <script type="text/javascript">
+      var nav = document.querySelector('nav');
+
+      window.addEventListener('scroll', function () {
+        if (window.pageYOffset > 100) {
+          nav.classList.add('bg-dark', 'shadow');
+        } else {
+          nav.classList.remove('bg-dark', 'shadow');
+        }
+      });
+    </script>
+    <footer id="footer" class="text-center text-lg-start">
+      <!-- Grid container -->
+      <div class="container p-4">
+        <!--Grid row-->
+        <div class="row">
+          <!--Grid column-->
+          <div class="col-lg-12 col-md-12 mb-4 mb-md-0">
+            <h5 class="text-uppercase">Sobre o website:</h5><br>
+    
+            <p>
+              A PixelPlaza é uma marca fictícia, criada exclusivamente para fins acadêmicos pelo aluno Vinícius Pontes Oliva, 
+              estudante do IFSP. Gostaríamos de esclarecer que nenhum produto real está sendo comercializado por meio deste website.
+               É importante destacar que o site foi desenvolvido com a ferramenta Bootstrap, buscando aprimorar 
+               a experiência de aprendizado e explorar o design
+            </p>
+          </div>
+          <!--Grid column-->
+    
+
+        </div>
+        <!--Grid row-->
+      </div>
+      <!-- Grid container -->
+      <div class="p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+
+      </div>
+    </footer>
+  </body>
+</html>
